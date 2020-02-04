@@ -6,7 +6,7 @@
           <p class="lead font-weight-bold mb-0">Vue Duckform Demo</p>
           <p class="mb-1">Laravel 5/6 and VueJS packages to handle form rendering and DB storage. I'm not gonna lie, this is a solution when you can't afford Typeform.</p>
           <p class="small mb-4">
-            <a href="https://github.com/tpenaranda/duckform" target="_blank">https://github.com/tpenaranda/duckform</a> |
+            <a href="https://packagist.org/packages/tpenaranda/duckform" target="_blank">https://github.com/tpenaranda/duckform</a> |
             <a href="https://www.npmjs.com/package/vue-duckform" target="_blank">https://www.npmjs.com/package/vue-duckform</a>
           </p>
         </b-col>
