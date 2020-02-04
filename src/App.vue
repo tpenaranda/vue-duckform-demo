@@ -67,7 +67,7 @@ export default {
               type: 'scale',
               required: true,
               text: "In a 1 to 5 scale, how do you like vue-duckform?",
-              possible_answers: [{ id: 'like_1', text: 'Nothing'}, { id: 'like_2' }, { id: 'like_3' }, { id: 'like_4' }, { id: 'like_5', text: 'A lot!'}]
+              possible_answers: [{id: 'like_1', text: 'Nothing'}, {id: 'like_2'}, {id: 'like_3'}, {id: 'like_4'}, {id: 'like_5', text: 'A lot!'}]
             },
           ]
         }, {
@@ -78,7 +78,7 @@ export default {
               type: 'date',
               required: false,
               text: 'Please let us know your birthdate',
-              possible_answers: [{id: 'birthdate', text: 'aaaa'}]
+              possible_answers: [{id: 'birthdate'}]
             },
             {
               type: 'integer',
