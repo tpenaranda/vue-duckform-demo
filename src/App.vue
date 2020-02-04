@@ -44,13 +44,13 @@ export default {
               type: 'free_text',
               required: true,
               text: "What's your name?",
-              possible_answers: [{id: 'possible_answer_1'}]
+              possible_answers: [{id: 'name'}]
             },
             {
               type: 'single_select',
               required: true,
               text: 'How did you hear about vue-duckform',
-              possible_answers: [{id: 'possible_answer_4', text: 'Newspaper'}, {id: 'possible_answer_5', text: 'Search engine'}, {id: 'possible_answer_6', text: 'WTF is vue-duckform?'}]
+              possible_answers: [{id: 'newspaper', text: 'Newspaper'}, {id: 'search_engine', text: 'Search engine'}, {id: 'wtf', text: 'WTF is vue-duckform?'}]
             }
           ]
         }, {
@@ -61,13 +61,13 @@ export default {
               type: 'multiselect',
               required: true,
               text: 'Which option do you like more?',
-              possible_answers: [{id: 'possible_answer_7', text: 'Option 1'}, {id: 'possible_answer_8', text: 'Option 2'}, {id: 'possible_answer_9', text: 'Other'}]
+              possible_answers: [{id: 'option_1', text: 'Option 1'}, {id: 'option_2', text: 'Option 2'}, {id: 'other', text: 'Other'}]
             },
             {
               type: 'scale',
               required: true,
               text: "In a 1 to 5 scale, how do you like vue-duckform?",
-              possible_answers: new Array(5).fill({}).map((v, k) => { return { id: `possible_answer_scale_${k}`} })
+              possible_answers: [{ id: 'like_1', text: 'Nothing'}, { id: 'like_2' }, { id: 'like_3' }, { id: 'like_4' }, { id: 'like_5', text: 'A lot!'}]
             },
           ]
         }, {
@@ -78,13 +78,13 @@ export default {
               type: 'date',
               required: false,
               text: 'Please let us know your birthdate',
-              possible_answers: [{id: 'possible_answer_2'}]
+              possible_answers: [{id: 'birthdate', text: 'aaaa'}]
             },
             {
               type: 'integer',
               required: true,
-              text: "Some 'integer' type required question",
-              possible_answers: [{id: 'possible_answer_3'}]
+              text: "How much does the Eiffel Tower weigh?",
+              possible_answers: [{id: 'eiffel_weight', text: 'Tons.'}]
             }
           ]
         }
