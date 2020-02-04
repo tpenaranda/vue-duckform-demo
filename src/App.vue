@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <b-container class="p-4" fluid>
-      <b-row class="w-100 border-bottom border-dark">
+      <b-row class="w-100 border-bottom border-dark m-0">
         <b-col class="text-center">
           <p class="lead font-weight-bold mb-0">Vue Duckform Demo</p>
           <p class="mb-1">Laravel 5/6 and VueJS packages to handle form rendering and DB storage. I'm not gonna lie, this is a solution when you can't afford Typeform.</p>
@@ -11,12 +11,12 @@
           </p>
         </b-col>
       </b-row>
-      <b-row class="w-100">
-        <b-col cols="7">
+      <b-row class="w-100 m-0">
+        <b-col cols="12" md="7">
           <p class="text-center py-4 mb-2">Form Model</p>
           <vue-json-pretty :data="form"></vue-json-pretty>
         </b-col>
-        <b-col cols="5">
+        <b-col cols="12" md="5">
           <p class="text-center py-4 mb-2">Form Model rendered</p>
           <duckform class="border border-dark" :form-data="formData" v-model="form" @save="handleSave"></duckform>
         </b-col>

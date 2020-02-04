@@ -12,7 +12,7 @@
     "bootstrap-vue": "^2.4.0",
     "core-js": "^3.4.4",
     "vue": "^2.6.11",
-    "vue-duckform": "^1.1.1",
+    "vue-duckform": "^1.1.5",
     "vue-json-pretty": "^1.6.3"
   },
   "devDependencies": {
